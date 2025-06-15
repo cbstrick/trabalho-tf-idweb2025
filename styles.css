@@ -4,3 +4,12 @@
 body{
     height: 100vh;
 }
+.contmeio{
+    height:100vh;
+    width:60%;
+}
+.imgcards{
+    height: 202px;
+    width: 632px;
+    max-width: none;
+}
