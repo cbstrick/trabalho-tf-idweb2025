@@ -8,8 +8,50 @@ body{
     height:100vh;
     width:60%;
 }
-.imgcards{
-    height: 202px;
-    width: 632px;
-    max-width: none;
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #acacac;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-light{
+    background-color: #acacac;
+}
+.gradejogos{
+    height: 49%;
+    width: auto;
+}
+.card-jogo{
+    max-width: 12em; /*usei em aq pra ficar prop. ao tamanho do card!!*/
+    min-width: 15em; 
+}
+.card-jogo img{
+    max-width: 100%;
+}
+.cont-cards{
+    gap: 20px;
+    width: 100%;
 }
