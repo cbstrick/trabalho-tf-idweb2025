@@ -1,16 +1,33 @@
+/*CSS navbar + config. gerais - remover comentarios dps*/
+.topo{
+    background-color: #ff943c;
+    height: 7.5%;
+    box-shadow:0 4px 8px rgba(170, 94, 6, 0.507);
+    padding: 1rem 0;
+    overflow: hidden;
+}
 .font{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.navbar-brand img{
+    max-height: 64px;
+    width: auto;
+}
+nav a, nav img{
+    max-height: 64px;
+}
+/*CSS body*/
 body{
     height: 100vh;
+    padding-top: 15px;
 }
 .contmeio{
     height:100vh;
-    width:60%;
 }
-.cards-wrapper {
-  display: flex;
-  justify-content: center;
+.contmeio,.contheader{
+    max-width: 70.8%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .card img {
   max-width: 100%;
@@ -26,22 +43,13 @@ body{
     transform: translateY(-5px);
 }
 .carousel-inner {
-  padding: 1em;
-}
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: #acacac;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
+    padding: 1em;
 }
 .btn-light{
     background-color: #acacac;
 }
 .gradejogos{
-    height: 49%;
+    height: 56%;
     width: auto;
 }
 .card-jogo{
