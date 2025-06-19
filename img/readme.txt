@@ -1,0 +1,1 @@
+para adicionar as imagens para a página de cada jogo, dá o nome pra ela de [nomedojogo]f.png!! (ex: cs2f.png)
