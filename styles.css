@@ -1,4 +1,4 @@
-/*CSS navbar + config. gerais - remover comentarios dps*/
+/*CSS navbar + config. gerais + footer - remover comentarios dps*/
 .topo{
     background-color: #ff943c;
     height: 7.5%;
@@ -16,17 +16,25 @@
 nav a, nav img{
     max-height: 64px;
 }
+.rodape{
+    height: 45px;
+    background-color: #444444;
+    width: 100%;
+}
 /*CSS body*/
 body{
+    min-height: 100vh;
     background-color: #cfcfcf;
-    height: 100vh;
     padding-top: 64px;
+    position: relative;
 }
 .spacing{
     background-color: white;
 }
-.contmeio{
-    height:100vh;
+.end_space{
+    height: 55px;
+    width: 100%;
+    background-color: #2e2f37;
 }
 .contmeio,.contheader{
     max-width: 70.8%;
@@ -56,8 +64,10 @@ body{
     background-color: #6e6e6e;
 }
 .gradejogos{
-    height: 56%;
+    min-height: auto;
+    overflow: visible;
     width: auto;
+    margin-bottom: 2rem;
 }
 .card-jogo{
     max-width: 12em; /*usei em aq pra ficar prop. ao tamanho do card!!*/
@@ -76,4 +86,22 @@ body{
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
     border: 1px solid rgb(219, 219, 219);
     border-radius: 5px;
+}
+.gamearea{
+    height: 25em;
+    width: auto ;
+    border: 1px solid rgb(182, 182, 182);
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #c7c7c7;
+}
+.gamearea p{
+    font-size: small;
+    color: #ffffff;
+}
+.pricearea{
+    height: 14em;
+}
+footer p{
+    color: #ffffff;
 }
