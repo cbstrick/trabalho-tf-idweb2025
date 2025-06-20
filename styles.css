@@ -9,6 +9,9 @@
 .font{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.font_titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .navbar-brand img{
     max-height: 64px;
     width: auto;
@@ -35,11 +38,15 @@ body{
     height: 55px;
     width: 100%;
     background-color: #2e2f37;
+    box-shadow: 8px 6px 2px 0 rgba(22, 22, 26, 0.514);
 }
 .contmeio,.contheader{
     max-width: 70.8%;
     margin: 0 auto;
     padding: 0 15px;
+}
+.contmeio{
+    margin-bottom: 3rem;
 }
 .card img {
   max-width: 100%;
@@ -95,13 +102,17 @@ body{
     border-radius: 5px;
     background-color: #c7c7c7;
 }
-.gamearea p{
-    font-size: small;
+.gamearea p,.gamearea label{
+    font-size: smaller;
     color: #ffffff;
 }
 .pricearea{
-    height: 14em;
+    height: 9em;
+    border-bottom: 1px solid #2e2f37 ;
 }
 footer p{
     color: #ffffff;
+}
+.end_button{
+    height: 3em;
 }
