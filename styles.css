@@ -1,0 +1,118 @@
+/*CSS navbar + config. gerais + footer - remover comentarios dps*/
+.topo{
+    background-color: #ff943c;
+    height: 7.5%;
+    box-shadow:0 4px 8px rgba(170, 94, 6, 0.507);
+    padding: 1rem 0;
+    overflow: hidden;
+}
+.font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.font_titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand img{
+    max-height: 64px;
+    width: auto;
+}
+nav a, nav img{
+    max-height: 64px;
+}
+.rodape{
+    height: 45px;
+    background-color: #444444;
+    width: 100%;
+}
+/*CSS body*/
+body{
+    min-height: 100vh;
+    background-color: #cfcfcf;
+    padding-top: 64px;
+    position: relative;
+}
+.spacing{
+    background-color: white;
+}
+.end_space{
+    height: 55px;
+    width: 100%;
+    background-color: #2e2f37;
+    box-shadow: 8px 6px 2px 0 rgba(22, 22, 26, 0.514);
+}
+.contmeio,.contheader{
+    max-width: 70.8%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.contmeio{
+    margin-bottom: 3rem;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.carousel-inner {
+    padding: 1em;
+}
+.img_pad{
+    border-radius: 5px;
+}
+.btn .btn-light{
+    background-color: #6e6e6e;
+}
+.gradejogos{
+    min-height: auto;
+    overflow: visible;
+    width: auto;
+    margin-bottom: 2rem;
+}
+.card-jogo{
+    max-width: 12em; /*usei em aq pra ficar prop. ao tamanho do card!!*/
+    min-width: 15em; 
+}
+.card-jogo img{
+    max-width: 100%;
+}
+.cont-cards{
+    gap: 20px;
+    width: 100%;
+}
+/*CSS Carrinho*/
+.infocart,.infocart2{
+    height: 45rem;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+}
+.gamearea{
+    height: 25em;
+    width: auto ;
+    border: 1px solid rgb(182, 182, 182);
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #c7c7c7;
+}
+.gamearea p,.gamearea label{
+    font-size: smaller;
+    color: #ffffff;
+}
+.pricearea{
+    height: 9em;
+    border-bottom: 1px solid #2e2f37 ;
+}
+footer p{
+    color: #ffffff;
+}
+.end_button{
+    height: 3em;
+}

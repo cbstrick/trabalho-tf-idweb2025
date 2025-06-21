@@ -5,16 +5,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="header.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <title>PZ Games</title>
+    <title>PZ Games - Início</title>
 </head>
 
-<body>
-    <header class="fixed-top topo">
-        <img src="/img/PZ.png" alt="logo pz" style="height: 66px;">        
-    </header>
+<body class="d-flex flex-column">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top topo">
+        <div class="container-fluid d-flex justify-content-center w-100 contheader">
+            <a class="navbar-brand p-0 m-0 d-inline-block font" href="index.html">
+                <img class="img-fluid" src="/img/PZ.png" alt="Logo PZ Games">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link ms-2" href="index.html">Ofertas</a>
+                    <a class="nav-item nav-link ms-4" href="cart.html">Carrinho</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Todos os preços dos jogos foram retirados da steam!-->
+    <div class="container-fluid d-flex justify-content-center w-100">
+        <div class="container d-flex flex-column contmeio">
+            <h2 class="mt-3 mb-3 ms-4 me-auto font_titulo"><b>OFERTAS</b></h2>
+            <div class="d-flex justify-content-center">
+                <div class="card">
+                    <img src="img/cs2.png" class="card-img-top" alt="logo oferta 1">
+                    <div class="card-body">
+                        <h5 class="card-title">COUNTER STRIKE 2 PRIME</h5>
+                        <p class="card-text">Passe Prime do jogo CS2, que dá acesso ao modo ranqueado e a servidores
+                            personalizados de jogo.</p>
+                        <a href="#" class="btn btn-light"><s>R$ 85,99</s> R$ 56,99</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/gowr.png" class="card-img-top" alt="logo oferta 2">
+                    <div class="card-body">
+                        <h5 class="card-title">God of War: Ragnarok</h5>
+                        <p class="card-text">Continuação da franquia de 2018 e fim do ciclo God of War.</p>
+                        <a href="#" class="btn btn-light"><s>R$ 249,90</s> R$ 219,90</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/mc.png" class="card-img-top" alt="logo oferta 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Minecraft Java + Bedrock</h5>
+                        <p class="card-text">Um dos jogos mais vendidos do mundo, contas de Minecraft disponíveis apenas
+                            aqui no PZ Games!</p>
+                        <a href="#" class="btn btn-light"><s>R$ 99,99</s> R$ 69,99</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gradejogos mt-4">
+                <h2 class="ms-4 mb-3 me-auto font_titulo"><b>JOGOS</b></h2>
+                <div class="cont-cards d-flex flex-wrap justify-content-around">
+                    <div class="card-jogo">
+                        <img class="img_pad" src="img/bf5.jpg" alt="logo BF5">
+                        <h4>Battlefield V</h4>
+                        <div>
+                            <span>R$ 229,00</span>
+                            <button class="btn btn-light">+</button>
+                        </div>
+                    </div>
+                    <div class="card-jogo">
+                        <img class="img_pad" src="img/repo.jpg" alt="logo REPO">
+                        <h4>R.E.P.O.</h4>
+                        <div>
+                            <span>R$ 32,99</span>
+                            <button class="btn btn-light">+</button>
+                        </div>
+                    </div>
+                    <div class="card-jogo">
+                        <img class="img_pad" src="img/hzd.jpg" alt="logo HORIZON">
+                        <h4>Zero Dawn</h4>
+                        <div>
+                            <span>R$ 249,50</span>
+                            <button class="btn btn-light">+</button>
+                        </div>
+                    </div>
+                    <div class="card-jogo">
+                        <img class="img_pad" src="img/rdr2.jpg" alt="logo RED DEAD">
+                        <h4>RDR 2</h4>
+                        <div>
+                            <span>R$ 299,90</span>
+                            <button class="btn btn-light">+</button>
+                        </div>
+                    </div>
+                    <div class="card-jogo">
+                        <img class="img_pad" src="img/hollow.jpg" alt="logo HOLLOW KNIGHT">
+                        <h4>Silksong</h4>
+                        <div>
+                            <span>R$ 96,99</span>
+                            <button class="btn btn-light">+</button>
+                        </div>
+                    </div>
+                    <div class="cont-cards d-flex flex-wrap justify-content-around">
+                        <div class="card-jogo">
+                            <img class="img_pad" src="img/sg.jpg" alt="logo STEINS GATE">
+                            <h4>STEINS;GATE</h4>
+                            <div>
+                                <span>R$ 57,99</span>
+                                <button class="btn btn-light">+</button>
+                            </div>
+                        </div>
+                        <div class="card-jogo">
+                            <img class="img_pad" src="img/skyrim.jpg" alt="logo SKYRIM">
+                            <h4>TES: Skyrim</h4>
+                            <div>
+                                <span>R$ 149,00</span>
+                                <button class="btn btn-light">+</button>
+                            </div>
+                        </div>
+                        <div class="card-jogo">
+                            <img class="img_pad" src="img/gtav.jpg" alt="logo GTA">
+                            <h4>GTA V</h4>
+                            <div>
+                                <span>R$ 149,90</span>
+                                <button class="btn btn-light">+</button>
+                            </div>
+                        </div>
+                        <div class="card-jogo">
+                            <img class="img_pad" src="img/poly.jpg" alt="logo POLY BRIDGE">
+                            <h4>Poly Bridge 3</h4>
+                            <div>
+                                <span>R$ 29,99</span>
+                                <button class="btn btn-light">+</button>
+                            </div>
+                        </div>
+                        <div class="card-jogo">
+                            <img class="img_pad" src="img/rayman.jpg" alt=" logo RAYMAN">
+                            <h4>Rayman Legends</h4>
+                            <div>
+                                <span>R$ 17,99</span>
+                                <button class="btn btn-light">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="end_space mt-auto d-flex justify-content-around align-items-center">
+        <p class="mt-3">© PZ Games - Todos os direitos reservados 2025</p>
+        <p class="mt-3">Artur Felipe Triches e Eduardo da Luz Bernardi</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
