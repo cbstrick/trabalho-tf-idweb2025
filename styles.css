@@ -116,3 +116,32 @@ footer p{
 .end_button{
     height: 3em;
 }
+
+/* Novo CSS - Paginas dos JOGOS - Adicionado em 21/06 */
+
+.carousel-box {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.info-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.descricao {
+    background-color: #e8e8e8;
+}
+
+.requisitos {
+    background-color: #ffffff;
+}
+
+.requisitos h5 {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
